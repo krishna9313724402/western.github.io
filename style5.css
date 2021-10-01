@@ -400,12 +400,12 @@ article h3 span{
     background-color: black;
   }
   .coming-soon{
-    width:22%;
+    width:20%;
   }
   .roted{
-    width:78%
+    width:80%
 }
   .coming{
-    width:100%
+    width:fit-content;
   }
 }
