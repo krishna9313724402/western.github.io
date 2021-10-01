@@ -326,23 +326,20 @@ textarea{
   background-color: rgba(0, 0, 0, 0.8);
  position: absolute;
  top: 575px;
+  display: flex;
+  align-items:center ;
+  padding: 0 50px;
 }
 .coming-soon{
   
   width: 22%;
   color: red;
   font-size: 16px;
- 
 }
 .coming h1{
   font-family: 'Times New Roman', Times, serif;
   font-weight: 900;
  
-}
-.coming{
-  display: flex;
-  align-items:center ;
-  padding: 0 50px;
 }
 .roted h2{
   color: white;
