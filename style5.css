@@ -1,0 +1,405 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  box-sizing: border-box;
+}
+.video-selector{
+  position: fixed;
+  right: 0;
+  top: 0;
+ min-width: 100%;
+ min-height: 100vh;
+width: auto;
+height: auto;
+z-index: -999;
+}
+nav{
+  color: white;
+  
+  height: 80px;
+padding: 0 50px;
+background-color: rgba(0, 0, 0, 0.3);
+}
+.logo img{
+  width: 70px;
+  height: 70px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu ul{
+  display: flex;
+  width: 950px;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.menu ul li a{
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  
+  position: relative;
+ 
+ font-family: sans-serif
+}
+ul li a:before{
+  position: absolute;
+  content: "";
+  top: 110%;
+  height: 2px;
+  left: 0%;
+  width: 0%;
+  border-bottom: 2px solid white;
+  transition: 0.4s;
+}
+.menu ul li a:hover:before{
+  width: 100%;
+}
+.socialmedia a{
+  color: white;
+ text-decoration: none;
+ width: 30px;
+ height: 30px;
+ text-align: center;
+ line-height: 30px;
+ border-radius: 20px;
+ color: white;
+ margin-right: 20px;
+  background-color: whitesmoke;
+}
+.socialmedia{
+
+  width: 350px;
+}
+
+#color1{
+  background-image: linear-gradient(blue, red, yellow);
+}
+
+#color3{
+  background-color: rgb(11, 165, 18);
+}
+#color4{
+  background-color: rgb(15, 164, 223);
+}
+#color5{
+  background-color: blue;
+}
+#color6{
+  background-color: red;
+}
+section{
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: space-between;
+ 
+  height: 40px;
+  align-items: center;
+  padding: 0 50px;
+  
+}
+.sign a{
+  color: white;
+ 
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+}
+.sign a:before{
+  position: absolute;
+  content: "";
+  top: 110%;
+  height: 2px;
+  left: 0%;
+  width: 0%;
+  border-bottom: 2px solid white;
+  transition: 0.4s;
+}
+.sign a:hover::before{
+  width: 100%;
+}
+
+.boder{
+  border-right: 1px solid white;
+ margin: 0 15px;
+ 
+}
+main h2{
+  color: red;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 7px;
+  font-size: 30px;
+
+}
+main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  
+}
+main h1{
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  margin-bottom: 10px;
+}
+main p{
+  color: whitesmoke;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.btn .bt{
+  padding: 8px 20px;
+  
+  margin: 0 20px;
+}
+.btn a{
+  color: white;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid white;
+  transition: 1s;
+  background-color: rgba(0,0,0,0.4);
+}
+.btn a:hover{
+  background-color: white;
+  
+  color: black;
+  border: 1px solid black;
+} 
+.about{
+  background-color: transparent;
+  margin-top: 505px;
+  
+
+background-color: white;
+}
+.about h1{
+  padding-bottom: 30px;
+  text-align: center;
+  padding-top: 30px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: 35px;
+  color: darkslateblue;
+  letter-spacing: 1px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.about-us{
+ 
+  height: auto;
+  display: flex;
+  align-items:center ;
+  justify-content: space-between;
+}
+.discription p{
+  width: 500px;
+  letter-spacing: 2px;
+  line-height: 2rem;
+  padding-right: 40px;
+}
+footer{
+  
+  color:white;
+  
+}
+footer h1{
+  text-align: center;
+  padding:30px 0;
+  font-size: 35px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.address{
+  display: flex;
+  line-height: 35px;
+  width: 600px;
+  
+  margin-left: 50px;
+  
+  font-size: 20px;
+
+}
+.information{
+  padding-left: 70px;
+}
+.contact{
+  display: flex;
+  align-items:center ;
+
+justify-content: space-between;
+height: auto;
+
+
+
+}
+.form{
+  padding:0 30px;
+  width: 500px;
+ background-color: ;
+  
+}
+.form h2{
+  text-transform: capitalize;
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+.main-first{
+  display: flex;
+  justify-content: space-between;
+}
+input{
+  height: 37px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-size: 16px;
+  margin-bottom: 15px;
+  width: 100%;
+  
+}
+::placeholder{
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.form p{
+  font-weight: 600;
+  margin-bottom:10px ;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+textarea{
+  resize: none;
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 5px ;
+  text-transform: capitalize;
+ 
+}
+.submit{
+  width: 130px;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 1s;
+  border: 1px solid white;
+}
+.submit:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+
+}
+.coming{
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+ position: absolute;
+ top: 575px;
+}
+.coming-soon{
+  
+  width: 22%;
+  color: red;
+  font-size: 16px;
+ 
+}
+.coming h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+ 
+}
+.coming{
+  display: flex;
+  align-items:center ;
+  padding: 0 50px;
+}
+.roted h2{
+  color: white;
+  
+  
+}
+.roted{
+  width: 80%;
+}
+article{
+  height: 50px;
+  color:white;
+  display: flex;
+  justify-content: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+article h3 span{
+  color: red;
+}
+.icon{
+  margin-left: 70px;
+}
+.icon a{
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+@media(max-width:700px){
+  header{
+      width: fit-content;
+      height: fit-content;
+    
+  }
+  main{
+    width: 1000px;
+  height: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 95px;
+    margin-left: 490px;
+  }
+  .coming{
+    width: 1280px;
+  }
+  nav ul{
+    margin-left: 200px;
+  }
+  footer {
+   background-color: black;
+  }
+  footer h1{
+    color: white;
+  }
+  article{
+    background-color: black;
+  }
+}
