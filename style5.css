@@ -400,6 +400,9 @@ article h3 span{
     background-color: black;
   }
   .coming-soon{
-    width:400px
+    width:22%;
   }
+  .roted{
+    width:78%
+}
 }
