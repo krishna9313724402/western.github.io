@@ -381,12 +381,11 @@ article h3 span{
   height: 300px;
     text-align: center;
     margin: auto;
-    padding-bottom:100px;
+    
     margin-left: 490px;
   }
   .coming{
-    width: 1300px;
-    
+    width: 1280px;
   }
   nav ul{
     margin-left: 200px;
@@ -400,13 +399,5 @@ article h3 span{
   article{
     background-color: black;
   }
-  .about{
-    width :100%
 }
-  .roted{
-    margin-right:20px
-  }
-  .coming-soon{
-    width:200px
-  }
 }
