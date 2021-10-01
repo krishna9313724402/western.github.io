@@ -399,5 +399,7 @@ article h3 span{
   article{
     background-color: black;
   }
-  
+  .coming-soon{
+    width:250px
+  }
 }
