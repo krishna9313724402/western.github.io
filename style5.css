@@ -408,4 +408,7 @@ article h3 span{
   .coming{
     width:fit-content;
   }
+  .form{
+    margin right:20px
+  }
 }
