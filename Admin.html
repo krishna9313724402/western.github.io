@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The western maithil</title>
+
+    <style>
+       @media (max-width:700px){
+        nav{
+          width: 1250px;
+        }
+        main{
+          width:1250px
+        }
+      }
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: arial;
+        
+      }
+        main{
+          display: flex;
+        justify-content: center;
+        align-items:center ;
+        height: 100vh;
+        }     
+nav{
+  color: white;
+  
+  height: 80px;
+padding: 0 50px;
+
+background-color: rgba(0, 0, 0);
+}
+.logo img{
+  width: 70px;
+  height: 70px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.menu ul{
+  display: flex;
+  width: 950px;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.menu ul li a{
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  
+  position: relative;
+ 
+ font-family: sans-serif
+}
+ul li a:before{
+  position: absolute;
+  content: "";
+  top: 110%;
+  height: 2px;
+  left: 0%;
+  width: 0%;
+  border-bottom: 2px solid white;
+  transition: 0.4s;
+}
+.menu ul li a:hover:before{
+  width: 100%;
+}
+      .form{
+        width: 400px;
+        height: auto;
+        
+        text-align: center;
+        box-shadow: 0 0 20px;
+        
+      }
+      input{
+        width: 300px;
+        height: 40px;
+        border: none;
+        padding: 0 10px;
+        margin-bottom: 20px;
+        background-color: hsl(0, 12%, 92%);
+        font-size: 16px;
+        border-radius: 5px;
+        
+      }
+      input:focus{
+        outline: none;
+        border: 1px solid black;
+      }
+      ::placeholder{
+        text-align: center;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 16px;
+        color: rgb(170, 159, 159);
+        letter-spacing: 1px;
+      }
+      .btn input{
+        width: 200px;
+        text-transform: capitalize;
+        background-color: skyblue;
+        border-radius: 5px;
+        color: white;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+      .form .p{
+        background-color: hsl(0, 12%, 92%);
+        line-height: 50px;
+        text-transform: capitalize;
+        height: 50px;
+        color:rgb(39, 162, 211);
+        font-weight: 600;
+        
+      }
+      .form .p a{
+        color: rgb(20, 151, 202);
+      }
+      .form a :hover{
+        color: red;
+      }
+      .btn :hover{
+        background-color: powderblue;
+      }
+    </style>
+    </head>
+
+    <body>
+      <nav>
+        <div class="logo"><img src="logo.jpg" alt=""></div>
+        <div class="menu">
+           <ul>
+              <li><a href="https://krishna9313724402.github.io/western.github.io/">home</a></li>
+              <li><a href="">services</a></li>
+              <li><a href="">album</a></li>
+              <li><a href="">streaming platforms</a></li>
+              <li><a href="artist.html">artist</a></li>
+              <li><a href="Audio.html">audios</a></li>
+              <li><a href="">videos</a></li>
+              <li><a href="">our team</a></li>
+              <li><a href="">director</a></li>
+           </ul>
+        </div>
+       </nav>
+       <main>
+      <div class="form">
+        <h2 style="margin-bottom:20px ;margin-top: 20px;letter-spacing: 1px;">LOGIN</h2>
+      <form action="">
+        <input type="text" placeholder="user name" required><br>
+        <input type="password" placeholder="password" required>
+        <div class="btn">
+          <input type="submit" value="login">
+          
+        </div>
+     <div class="p">  <a href="" style="text-decoration: none; "> <p>forget password?</p></a></div>
+      </form>
+    </div>
+  </main>
+    </body>
+    </html>
